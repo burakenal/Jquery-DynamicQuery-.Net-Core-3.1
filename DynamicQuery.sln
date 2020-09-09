@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQuery", "DynamicQuery\DynamicQuery.csproj", "{C2B79D1F-A99A-4DB6-8FF5-3C087DC1A6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicQuery", "DynamicQuery\DynamicQuery.csproj", "{C2B79D1F-A99A-4DB6-8FF5-3C087DC1A6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{E9ABBF08-CB8C-4741-8B74-63BA03BAAB9A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\burak.enal\Desktop\Screenshot_1.jpg = ..\..\..\Users\burak.enal\Desktop\Screenshot_1.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BFDA744-23CC-4435-A7C7-43235653AD0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2B79D1F-A99A-4DB6-8FF5-3C087DC1A6D1} = {6BFDA744-23CC-4435-A7C7-43235653AD0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {582B5EB4-6DFD-4CCC-BE44-1DF7E5303E4D}
