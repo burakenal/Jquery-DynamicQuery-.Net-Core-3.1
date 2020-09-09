@@ -1,4 +1,4 @@
-# Jquery-DynamicQuery .net core 3.1
+# Jquery-DynamicQuery .Net Core 3.1
 DynamicQuery
 jQuery plugin offering an simple interface to create complex queries.
 
